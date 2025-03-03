@@ -1,0 +1,9 @@
+[submodule "CLIMB_FE"]
+	path = CLIMB_FE
+	url = https://github.com/MS-Girls/CLIMB-FE.git
+[submodule "CLIMB-FE"]
+	path = CLIMB-FE
+	url = https://github.com/MS-Girls/CLIMB-FE.git
+[submodule "CLIMB-BE"]
+	path = CLIMB-BE
+	url = https://github.com/MS-Girls/CLIMB-BE.git
