@@ -69,9 +69,9 @@ Azure Blob Storage is used to store resumes and other documents securely, enabli
 
 Azure Document Intelligence, specifically the ```read``` model has been utilised to extract and process text from the resumes. The extracted content is then sent to the AI-model for personalized interview preparation.
 
-#### 3. Azure AI Hub
+#### 3. Azure AI Foundry
 
-Utilised Azure AI Hub, specifically the ```Phi-4-mini-instruct``` model, that powers the generation of contextual interview questions and cover letters. It enables the application to provide AI-driven responses by understanding user input and generate accurate solutions.
+Utilised Azure AI Foundry, specifically the ```Phi-4-mini-instruct``` model, that powers the generation of contextual interview questions and cover letters. It enables the application to provide AI-driven responses by understanding user input and generate accurate solutions.
 
 
 #### 4. Azure App Service
@@ -124,7 +124,7 @@ The uploaded resume is retrieved from Azure Blob Storage Container and the URL i
 
 #### 3. Querying and Response Generation
 
-Once the resume content and the user provided inputs are ready, the backend interacts with the ```Phi-4-mini-instruct``` model via structured prompts to generate relevant content. This model is made available via Azure AI Hub and is implemented in the ```Chat Services``` module of the backend. The following tasks are then implemented:
+Once the resume content and the user provided inputs are ready, the backend interacts with the ```Phi-4-mini-instruct``` model via structured prompts to generate relevant content. This model is made available via Azure AI Foundry and is implemented in the ```Chat Services``` module of the backend. The following tasks are then implemented:
 
 - **ATS Analysis & Resume Feedback:** The resume text is analyzed to provide insights and improvement suggestions.
 - **Cover Letter Generation:** The AI generates a professional cover letter based on the extracted resume details.
@@ -151,17 +151,11 @@ The frontend includes a centralized dashboard that provides a clear overview of 
 
 ## **TEAM MEMBERS**
 
-#### 1. R S Kierthana
-- [LinkedIn](https://www.linkedin.com/in/kierthana-rajesh-8b8b42256/)
-- [GitHub](https://github.com/KierthanaRS)
+#### 1. R S Kierthana : [LinkedIn](https://www.linkedin.com/in/kierthana-rajesh-8b8b42256/) [GitHub](https://github.com/KierthanaRS)
 
-#### 2. Priyanka S
-- [LinkedIn](https://www.linkedin.com/in/priyanka-s-4b324b26b/)
-- [GitHub](https://github.com/PRIYANKAS3110)
+#### 2. Priyanka S : [LinkedIn](https://www.linkedin.com/in/priyanka-s-4b324b26b/) [GitHub](https://github.com/PRIYANKAS3110)
 
-#### 3. S Ramya
-- [LinkedIn](https://www.linkedin.com/in/ramyas467/)
-- [GitHub](https://github.com/ramya487)
+#### 3. S Ramya : [LinkedIn](https://www.linkedin.com/in/ramyas467/) [GitHub](https://github.com/ramya487)
 
 ## **DEVELOPMENT**
 
