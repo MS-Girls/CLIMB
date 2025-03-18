@@ -22,6 +22,8 @@ CLIMB is a comprehensive web application designed to help job seekers prepare ef
 2. [Azure Services Used](#azure-services-used)
 3. [Technologies Used](#technologies-used)
 4. [Architecture](#architecture)
+    - [Frontend](#frontend)
+    - [Backend](#backend)
 5. [Team Members](#team-members)
 6. [Development](#development)
 
@@ -160,3 +162,7 @@ The frontend includes a centralized dashboard that provides a clear overview of 
 #### 3. S Ramya
 - [LinkedIn](https://www.linkedin.com/in/ramyas467/)
 - [GitHub](https://github.com/ramya487)
+
+## **DEVELOPMENT**
+
+There are two methods that are available to set up the server. One is to set up the server in the local environment and the other one is to use docker. The individual frontend and the backend repositories outline the steps to do the same
