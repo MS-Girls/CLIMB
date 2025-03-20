@@ -123,7 +123,7 @@ GitHub Copilot is an AI-powered coding assistant that helps developers by sugges
 
 ## **ARCHITECTURE**
 
-<img alt="architecture" src="./assets/architecture_dig.png" width="700" />
+<img alt="architecture" src="./assets/architecture_dig.png" width="750" />
 
 ### BACKEND
 
