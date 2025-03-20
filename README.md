@@ -1,31 +1,34 @@
 <p align="center">
-<img height="40" alt="microsoft-logo" src="/CLIMB/assets/microsoft.png" /> &nbsp;
-<img height="45" alt="azure-logo" src="/CLIMB//assets/azure.png" />
+<img height="120" alt="microsoft-logo" src="./assets/mst.png" />
+<img height="120" alt="azure-logo" src="./assets/azurelogo.png" />
 </p>
 
 # <p align="center">CLIMB - CAREER LADDER IMPROVEMENT & MANAGEMENT BOT</p>
 
-CLIMB is a comprehensive web application designed to help job seekers prepare effectively for their interviews. The platform provides tailored guidance through various features, including ATS score evaluation for resumes, company-specific and topic-specific interview question banks, resume-based interview questions, and AI-powered cover letter generation. By leveraging Azure AI services and modern web technologies, the application ensures an optimized and structured approach to interview preparation.
+CLIMB is a comprehensive web application designed to help job seekers prepare effectively for their interviews. The platform provides tailored guidance through various features, including ATS score evaluation for resumes, company-specific question bank and topic-specific interview questions, resume-based interview questions, and AI-powered cover letter generation. By leveraging Azure AI services and modern web technologies, the application ensures an optimized and structured approach to interview preparation.
+<br />
+<br />
 
-<section>
- <a href="" target="_blank"><img src="/CLIMB/assets/site.png" alt="site" height="40" /></a>
-&nbsp;&nbsp;
-<a href="" target="_blank"><img src="/CLIMB/assets/youtube.png" alt="demovideo" height="40" /></a>
-&nbsp;&nbsp;
-<a href="" target="_blank"><img src="/CLIMB/assets/ppt.jpeg" alt="ppt" height="40" /></a>
-&nbsp;&nbsp;
-<a href="https://github.com/MS-Girls/CLIMB" target="_blank"><img src="/CLIMB/assets/github.png" alt="github" height="40" /></a>
-</section>
+<p align="center">
+ <a href="" target="_blank"><img src="./assets/site.png" alt="site" height="40" /></a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="" target="_blank"><img src="./assets/youtube.png" alt="demovideo" height="40" /></a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="./assets/CLIMB_ppt.pdf" target="_blank"><img src="./assets/ppt.jpeg" alt="ppt" height="40" /></a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://github.com/MS-Girls/CLIMB" target="_blank"><img src="./assets/github.png" alt="github" height="40" /></a>
+</p>
 
 ## **Table of Contents**
 1. [Features](#features)
 2. [Azure Services Used](#azure-services-used)
 3. [Technologies Used](#technologies-used)
-4. [Architecture](#architecture)
+4. [Tools Used](#tools-used)
+5. [Architecture](#architecture)
     - [Frontend](#frontend)
     - [Backend](#backend)
-5. [Team Members](#team-members)
-6. [Development](#development)
+6. [Team Members](#team-members)
+7. [Development](#development)
 
 ## **FEATURES**
 
@@ -37,7 +40,7 @@ CLIMB is a comprehensive web application designed to help job seekers prepare ef
 
 #### 2. Company-Specific Online Assessment (OA) Questions
 
-- Curated OA questions from various companies.
+- Curated OA questions for various companies.
 - Helps in practicing real-world coding and problem-solving questions.
 - Enhances preparation for company-specific hiring challenges.
 
@@ -76,7 +79,7 @@ Utilised Azure AI Foundry, specifically the ```Phi-4-mini-instruct``` model, tha
 
 #### 4. Azure App Service
 
-Responsible for containerized deployment of frontend (Next.js application) and backend (FastAPI server) with Docker for efficiency in an automated manner using Github Actions, by leveraging Docker hub.
+Responsible for containerized deployment of frontend (Next.js application) and backend (ASP.NET Core server) with Docker for efficiency in an automated manner using Github Actions, by leveraging Docker hub.
 
 ## **TECHNOLOGIES USED**
 
@@ -108,7 +111,19 @@ Utilised to instantiate CI/CD pipeline inorder to ensure smooth development, aut
 
 Git and GitHub are used for version control and collaboration, allowing seamless tracking of code changes, efficient team collaboration, and secure code management.
 
+## **TOOLS USED**
+
+#### 1. Visual Studio Code
+
+Visual Studio Code (VS Code) is a lightweight and versatile code editor used for writing, debugging, and managing code across multiple programming languages. It offers features like syntax highlighting, auto-completion and extensions to enhance productivity.
+
+#### 2. GitHub Copilot
+
+GitHub Copilot is an AI-powered coding assistant that helps developers by suggesting code snippets, autocompleting functions, and generating entire blocks of code. It enhances productivity by reducing repetitive tasks and providing real-time coding assistance.
+
 ## **ARCHITECTURE**
+
+<img alt="architecture" src="./assets/architecture_dig.png" width="700" />
 
 ### BACKEND
 
