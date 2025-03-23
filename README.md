@@ -10,7 +10,7 @@ CLIMB is a comprehensive web application designed to help job seekers prepare ef
 <br />
 
 <p align="center">
- <a href="" target="_blank"><img src="./assets/site.png" alt="site" height="40" /></a>
+ <a href="https://climbfe-fnf2d2fnc7cfg4a0.southindia-01.azurewebsites.net/" target="_blank"><img src="./assets/site.png" alt="site" height="40" /></a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="" target="_blank"><img src="./assets/youtube.png" alt="demovideo" height="40" /></a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
