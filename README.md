@@ -29,6 +29,7 @@ CLIMB is a comprehensive web application designed to help job seekers prepare ef
     - [Backend](#backend)
 6. [Team Members](#team-members)
 7. [Development](#development)
+8. [License](#license)
 
 ## **FEATURES**
 
@@ -175,3 +176,6 @@ The frontend includes a centralized dashboard that provides a clear overview of 
 ## **DEVELOPMENT**
 
 There are two methods that are available to set up the server. One is to set up the server in the local environment and the other one is to use docker. The individual frontend and the backend repositories outline the steps to do the same
+
+## **LICENSE**
+CLIMB is licensed under MIT license, thus allowing permissive usage for your needs. For more information, refer to the [LICENSE](LICENSE) file
